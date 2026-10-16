@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- La app usa siempre el tema claro (mismo diseño de día y de noche) -->
+    <style name="Base.Theme.DM_DEGR_07" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/coral</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/coral_light</item>
+        <item name="colorOnPrimaryContainer">@color/coral_dark</item>
+        <item name="colorSecondary">@color/coral_dark</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/texto</item>
+        <item name="colorOnSurfaceVariant">@color/texto_gris</item>
+        <item name="colorOutline">@color/borde</item>
+        <item name="android:colorBackground">@color/crema</item>
+        <item name="android:windowBackground">@color/crema</item>
+        <item name="android:fontFamily">@font/quicksand</item>
+        <item name="fontFamily">@font/quicksand</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.UpiizPet.Dialog</item>
+        <item name="textInputStyle">@style/Widget.UpiizPet.TextInputLayout</item>
+    </style>
+</resources>

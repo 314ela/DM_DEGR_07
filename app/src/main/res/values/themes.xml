@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base de la app (claro, colores de mascotas) -->
+    <style name="Base.Theme.DM_DEGR_07" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/coral</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/coral_light</item>
+        <item name="colorOnPrimaryContainer">@color/coral_dark</item>
+        <item name="colorSecondary">@color/coral_dark</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/texto</item>
+        <item name="colorOnSurfaceVariant">@color/texto_gris</item>
+        <item name="colorOutline">@color/borde</item>
+        <item name="android:colorBackground">@color/crema</item>
+        <item name="android:windowBackground">@color/crema</item>
+        <item name="android:fontFamily">@font/quicksand</item>
+        <item name="fontFamily">@font/quicksand</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.UpiizPet.Dialog</item>
+        <item name="textInputStyle">@style/Widget.UpiizPet.TextInputLayout</item>
+    </style>
+
+    <style name="Theme.DM_DEGR_07" parent="Base.Theme.DM_DEGR_07" />
+
+    <!-- Alert Dialog redondeado y rosado -->
+    <style name="ThemeOverlay.UpiizPet.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorSurface">@color/coral_soft</item>
+        <item name="colorPrimary">@color/coral</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.UpiizPet.Dialog</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/UpiizPet.DialogTitle</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/UpiizPet.DialogBody</item>
+        <item name="buttonBarPositiveButtonStyle">@style/UpiizPet.DialogButton.Positive</item>
+        <item name="buttonBarNegativeButtonStyle">@style/UpiizPet.DialogButton.Negative</item>
+    </style>
+
+    <style name="ShapeAppearance.UpiizPet.Dialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">28dp</item>
+    </style>
+
+    <style name="UpiizPet.DialogTitle" parent="MaterialAlertDialog.Material3.Title.Text">
+        <item name="android:textColor">@color/texto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/quicksand</item>
+    </style>
+
+    <style name="UpiizPet.DialogBody" parent="MaterialAlertDialog.Material3.Body.Text">
+        <item name="android:textColor">@color/texto_gris</item>
+        <item name="android:fontFamily">@font/quicksand</item>
+    </style>
+
+    <style name="UpiizPet.DialogButton.Positive" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/coral</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="UpiizPet.DialogButton.Negative" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/texto_gris</item>
+    </style>
+</resources>

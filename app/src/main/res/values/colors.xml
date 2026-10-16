@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta UPIIZ Pet -->
+    <color name="coral">#FF5A6E</color>
+    <color name="coral_dark">#E5455A</color>
+    <color name="coral_light">#FFE8EB</color>
+    <color name="coral_soft">#FFF3F4</color>
+    <color name="crema">#FFF9F7</color>
+    <color name="texto">#2D2A32</color>
+    <color name="texto_gris">#8A8494</color>
+    <color name="borde">#EFE3E5</color>
+    <color name="gris_boton">#A19DA8</color>
+    <color name="menta">#E6F7F1</color>
+</resources>

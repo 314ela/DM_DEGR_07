@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">UPIIZ Pet</string>
+    <string name="marca">UPIIZ PET</string>
+
+    <!-- Login -->
+    <string name="ingresar">Ingresar</string>
+    <string name="saludo">¡Hola! ¡Qué gusto verte de nuevo!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="hint_email">example@email.com</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="no_cuenta">¿Aún no tienes cuenta?</string>
+    <string name="login_incorrecto">Correo o contraseña incorrectos</string>
+    <string name="bienvenida">¡Bienvenid@, %1$s! 🐾</string>
+
+    <!-- Registro -->
+    <string name="registro_sub">Crea tu cuenta y lleva el control de tus peludos</string>
+    <string name="hint_email_registro">Ingresa tu cuenta de correo</string>
+    <string name="hint_password_registro">Ingresa tu clave de acceso</string>
+    <string name="nombre">Nombre</string>
+    <string name="hint_nombre">Ingresa tu nombre</string>
+    <string name="acepto_terminos">Acepto los Términos de servicio y la Política de privacidad</string>
+    <string name="continuar">Continuar</string>
+    <string name="tiene_cuenta">¿Tienes una cuenta?</string>
+    <string name="email_duplicado">Este correo ya está registrado</string>
+    <string name="debe_aceptar">Debes aceptar los términos para continuar</string>
+    <string name="registro_exitoso">¡Cuenta creada! Bienvenid@ 🐶</string>
+
+    <!-- Validaciones -->
+    <string name="campo_requerido">Este campo es obligatorio</string>
+    <string name="email_invalido">Ingresa un correo válido</string>
+    <string name="password_corta">Mínimo %1$d caracteres</string>
+    <string name="edad_invalida">Ingresa una edad entre 0 y %1$d</string>
+
+    <!-- Mis mascotas -->
+    <string name="mis_mascotas">Mis mascotas</string>
+    <string name="buscar_mascota">Buscar mascota</string>
+    <string name="agregar">Agregar mascota</string>
+    <string name="salir">Salir</string>
+    <string name="sin_mascotas">Aún no tienes mascotas</string>
+    <string name="sin_mascotas_sub">Toca el botón + para registrar a tu primer peludo</string>
+    <string name="sin_resultados">No hay mascotas con ese nombre</string>
+    <string name="ayuda_lista">Toca para editar · Mantén presionado para eliminar</string>
+    <plurals name="contador_mascotas">
+        <item quantity="one">%d mascota</item>
+        <item quantity="other">%d mascotas</item>
+    </plurals>
+    <plurals name="edad_anios">
+        <item quantity="one">%d año</item>
+        <item quantity="other">%d años</item>
+    </plurals>
+
+    <!-- Eliminar -->
+    <string name="eliminar_titulo">Eliminar mascota</string>
+    <string name="eliminar_mensaje">¿Está seguro que quiere eliminar a la mascota %1$s?</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="mascota_eliminada">%1$s fue eliminada</string>
+
+    <!-- Nueva / Actualizar -->
+    <string name="nueva">Nueva</string>
+    <string name="nueva_sub">Cuéntanos sobre tu nuevo compañero</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="actualizar_sub">Edita los datos de tu mascota</string>
+    <string name="hint_nombre_mascota">Ingrese nombre mascota</string>
+    <string name="raza">Raza</string>
+    <string name="hint_raza">Ingrese raza</string>
+    <string name="edad">Edad</string>
+    <string name="hint_edad">Ingrese la edad (años)</string>
+    <string name="guardar">Guardar</string>
+    <string name="regresar">Regresar</string>
+    <string name="mascota_guardada">%1$s se agregó a tus mascotas 🐾</string>
+    <string name="mascota_actualizada">%1$s se actualizó correctamente</string>
+    <string name="mascota_no_encontrada">No se encontró la mascota</string>
+    <string name="error_operacion">Ocurrió un error, intenta de nuevo</string>
+    <string name="desc_imagen">Ilustración de mascotas</string>
+
+    <string-array name="razas_sugeridas">
+        <item>Mestizo</item>
+        <item>Chihuahua</item>
+        <item>Labrador</item>
+        <item>Golden Retriever</item>
+        <item>Pastor Alemán</item>
+        <item>Poodle</item>
+        <item>Schnauzer</item>
+        <item>Pug</item>
+        <item>Husky</item>
+        <item>Gran Perro</item>
+        <item>Gato Siamés</item>
+        <item>Gato Persa</item>
+        <item>Gato Mestizo</item>
+        <item>Conejo</item>
+        <item>Hámster</item>
+        <item>Perico</item>
+        <item>Canario</item>
+        <item>Pez Betta</item>
+        <item>Tortuga</item>
+    </string-array>
+</resources>
